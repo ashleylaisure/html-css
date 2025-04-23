@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family:"Roboto", sans-serif;
+    margin: 2rem;
+}
+
+div {
+    width: 280px;
+}
+
+div p {
+    margin: 0;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+.video-author {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.video-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.apple-text {
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.apple-text span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.five-a {
+    font-family: Tahoma; 
+}
+
+.fiveB{
+    margin-bottom: 8px;
+}
+
+.fiveBem {
+    color: red;
+    font-size: 20px;
+}
+
+.fiveC {
+    font-family: verdana;
+}
+
+.fiveC h3 {
+    margin-bottom: 2px;
+}
+
+.fiveC-title {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.fiveC-text {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.fiveC button {
+    font-family: inherit;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.fiveD {
+    width: 100%;
+    text-align: center;
+}
+
+.fiveD h4 {
+    font-weight: 500;
+}
+
+.fiveD p {
+    color: rgb(35, 92, 224);
+    font-weight: 550;
+}
+
+.fiveE {
+    width: 100%;
+    text-align: center;
+}
+
+.fiveE > * {
+    margin: 0;
+}
+
+.fiveE h5 {
+    color: rgb(255, 123, 0);
+    font-weight: 800;
+}
+.fiveE h2 {
+    margin: 8px 0;
+}
+.fiveE h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.fiveE p {
+    font-weight: 500;
+}
+
+.fiveE button {
+    background-color: rgb(50, 113, 232);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.fiveF {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.big-num {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.gray {
+    color: gray;
+}
+
+.green {
+    color: green;
+
+}
+
+.red {
+    color: red;
+}
