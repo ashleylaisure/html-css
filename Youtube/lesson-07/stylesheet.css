@@ -1,0 +1,101 @@
+.thumbnail {
+    width: 300px;
+}
+
+.search-bar {
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(125, 125, 125, .5);
+    padding: 10px 15px;
+
+}
+
+.sevenA {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.sevenB {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: left;
+}
+
+.sevenC {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.search-google {
+    border: none;
+    box-shadow: 0 0 20px rgba(125, 125, 125, .5);
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sevenF {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 350px;
+}
+
+.sevenF p {
+    font-size: 12px;
+    color: gray
+}
+
+.sevenF input{
+    width: 300px;
+    font-size: 20px;
+}
+
+.sevenF button {
+    margin: 10px;
+    width: 90%;
+    padding: 15px 0;
+    background-color: rgb(0, 89, 255);
+    border: none;
+    color: white;
+    border-radius: 21px;
+}
+
+.sevenG {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sevenG img {
+    height: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sevenG-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sevenG-left p{
+    color: gray 
+}
+
+.sevenG button {
+    background-color: rgb(25, 163, 117);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}

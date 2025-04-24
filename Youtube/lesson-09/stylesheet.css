@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 10px;
+    
+}
+
+.nineA {
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: red;
+    
+}
+
+.nineB {
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: green;
+    border-radius: 25px;
+    
+}
+
+.nineC {
+    border: 1px solid rgba(125, 125, 125, .3);
+    width: 300px;  
+    padding: 20px 10px;
+}
+
+.nineC p{
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+.nineC button {
+    font-weight: bolder;
+}
+
+.nineD {
+    background-color: black;
+    font-weight: bold;
+    width: 350px;  
+    padding: 5px 10px;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+
+}
+
+.info {
+    color: rgb(177, 177, 177);
+}
+
+.nineE {
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+
+.nineE img {
+    height: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.nineE-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nineE-left p{
+    color: gray 
+}
+
+.nineE button {
+    background-color: rgb(25, 163, 117);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+
+.nineF img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.nineF {
+    box-shadow: 0 0 10px gray;
+    margin: 0 5px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.nineF h4{
+    margin: 5px;
+}
+
+.nineF p {
+    margin: 5px;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.nineF button {
+    background-color: rgb(42, 125, 228);
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 6px;
+    color: white;
+}
+
+.nineH {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.nineH img {
+    width: 200px;
+}
+
+.nineH input {
+    width: 350px;
+    background: none;
+    border: none;
+    color: gray;
+    box-shadow: 0 0 20px rgba(125, 125, 125, .5);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.nineH-btn button {
+    border: none;
+    width: 140px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 545;
+    margin: 20px 5px;
+}
