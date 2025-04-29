@@ -1,0 +1,269 @@
+:root{ 
+    margin: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+.div1 {
+    background-color: aquamarine
+}
+
+.div2 {
+    background-color: rgb(2, 197, 197);
+}
+
+.flex {
+    margin-top: 20px;
+    height: 70px;
+    font-weight: bold;
+}
+
+.flex-continer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 2 */
+.flex2A {
+    width: 100px
+}
+
+.flex2B {
+    flex: 1;
+}
+
+/* 3 */
+.flex3A {
+    width: 100px;
+}
+
+.flex3B {
+    flex: 1;
+}
+
+.flex3C {
+    flex: 2;
+}
+
+/* 4 */
+.flex-continer-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border: 1px solid gray;
+}
+
+.flex-continer-4 div {
+    width: 100px;
+}
+
+/* 5 */
+.flex-continer-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 1px solid gray;
+}
+
+.flex-continer-5 div {
+    width: 100px;
+}
+
+/* 6 */
+.flex-continer-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid gray;
+}
+
+.flex-continer-6 div {
+    width: 100px;
+}
+
+/* 7 */
+
+.flex-continer-7 {
+    display: flex;
+}
+
+.flex7A {
+    width: 200px;
+}
+
+.flex7B {
+    width: 75px;
+}
+
+/* 8 */
+
+.flex-continer-8 {
+    display: flex;
+}
+
+.flex8A {
+    width: 50px;
+}
+
+.flex8B {
+    flex: 1;
+}
+
+.flex8C {
+    width: 75px;
+}
+
+/* 9 */
+.flex-continer-9 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.flex-continer-9 div {
+    width: 80px;
+}
+
+/* 10 */
+.flex-continer-10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid gray;
+}
+
+.flex-continer-10 div {
+    width: 100px;
+}
+
+/* tweleveE */
+
+.tweleveE {
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    border: 1px solid rgba(96, 96, 96, .5);
+    border-radius: 10px;
+
+    margin: 20px 0;
+    padding: 5px 15px;
+
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification {
+    border: none;
+    background-color: rgb(2, 197, 197);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* tweleveG */
+
+.tweleveG {
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid rgba(96, 96, 96, .5);
+    border-radius: 10px;
+
+    margin: 20px 0;
+    padding: 5px 15px;
+}
+
+.container-G {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container-G img {
+    width: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.profile-info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.follow {
+    /* width: 60px; */
+    background-color: rgb(2, 197, 197);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-info h4{
+    margin: 5px 0;
+}
+
+.profile-info p {
+    color:rgba(96, 96, 96, .7)
+}
+
+/* televeF */
+
+.tweleveF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(171, 105, 234);
+
+    height: 30px;
+    padding: 15px 10px;
+
+}
+
+.tweleveF p{
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+
+.tweleveF input {
+    flex: 1;
+    height: 100%;
+
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+.tweleveF button {
+    margin-left: 50px;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: rgb(171, 105, 234);
+    border: 1px solid white;
+    color: white;
+}
