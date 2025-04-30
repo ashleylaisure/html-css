@@ -6,29 +6,105 @@
 }
 
 .left-section {
-    background-color: aquamarine;
-    width: 150px;
-    margin-right: 50px
+    /* background-color: aquamarine; */
+    margin-right: 50px;
+
+    display: flex;
+    align-items: center;
 }
 
+.hamburger-menu, .youtube-logo {
+    height: 20px;
+}
+
+.hamburger-menu {
+    margin: 0 24px;
+}
+
+/*  */
 .middle-section {
-    background-color: bisque;
+    /* background-color: bisque; */
     flex: 1;
     max-width: 400px;
+
+    display: flex;
+    align-items: center;
 }
 
+.search-bar {
+    flex: 1;
+    height: 34px;
+    padding: 0 0 0 10px;
+    font-size: 16px;
+
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, .1);
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.searchbtn {
+    height: 36px;
+    aspect-ratio: 3/2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(238, 238, 238, 0.6);
+    border: 1px solid rgb(192, 192, 192);
+
+    margin-left: -1;
+    margin-right: 10px;
+}
+
+.searchbtn img {
+    height: 22px;
+}
+
+.voicebtn {
+    height: 36px;
+    aspect-ratio: 1/1;
+
+    border-radius: 20px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(236, 236, 236);
+}
+
+.voicebtn img {
+    height: 25px;
+}
+
+/*  */
 .right-section {
-    background-color: lightsalmon;
-    width: 200px;
-    margin-left: 30px;
+    /* background-color: lightsalmon; */
+    width: 180px;
+    margin: 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-shrink: 0;
 }
 
+.upload, .apps, .notifi {
+    height: 24px;
+}
 
-/* .search-bar {
-    margin: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(125, 125, 125, .5);
-    padding: 10px 15px;
-
-} */
+.user-profile {
+    height: 35px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 18px;
+}
