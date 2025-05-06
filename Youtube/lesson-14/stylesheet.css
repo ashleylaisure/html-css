@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 3000px;
+    padding-top: 70px;
+    padding-left: 80px;
+    /* padding-right: 110px; */
+}
+
+.div1 {
+    background-color: orchid
+}
+
+.div2 {
+    background-color: teal;
+}
+
+.header {
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+.div1, .div2 {
+    height: 200px;
+    width: 200px;
+}
+
+.sidebar {
+    background-color: palevioletred;
+    color: white;
+
+    position:fixed;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    width: 70px;
+}
+
+.fourteen-A {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: black;
+    color: white;
+
+    z-index: 1;
+}
+
+.fourteen-B {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    width: 100px;
+    right: 0;
+    background-color: palevioletred;
+    color: white;
+}
+
+.fourteen-C {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourteen-D {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.fourteen-D button {
+    width: fit-content;
+    padding: 3px 5px
+}
+
+.header-two {
+    background: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.left img {
+    height: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add, .msg {
+    padding: 8px 10px;
+    border-radius: 9px;
+    border: none;
+}
+
+.add {
+    background-color: orchid;
+    color: white
+}
+
+.msg {
+    background-color: teal;
+    color: white;
+}
+
+.fourteen-F {
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+}
+
+.pics img {
+    height: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    background-color: rgb(52, 52, 52);
+    gap: 5px;
+}
+
+.pics img:last-child {
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+    background-color: rgb(76, 76, 76);
+    width: 150px;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-info h5 {
+    color: rgb(195, 195, 195);
+}
+
+.info p {
+    color: gray;
+    font-weight: bolder;
+}
+
