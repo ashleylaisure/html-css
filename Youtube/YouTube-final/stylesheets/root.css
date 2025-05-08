@@ -8,8 +8,16 @@ body {
     padding-top: 70px;
     padding-left: 80px;
     height: 3000px;
+
+    background-color: rgb(249, 249, 249);
 }
 
 p {
     margin: 0;
+}
+
+@media (min-width: 1000px) {
+    body {
+        padding-left: 205px;
+    }
 }

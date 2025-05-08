@@ -19,23 +19,63 @@
 
         <div class="middle-section">
             <input class="search-bar" type="text" placeholder="Search">
-            <button class="searchbtn"><img src="../images/icons/search.svg"></button>
-            <button class="voicebtn"><img src="../images/icons/voice-search-icon.svg"></button>
+            <button class="searchbtn icon-tool-tip">
+                <img src="../images/icons/search.svg">
+                <div class="tool-tip">Search</div>
+            </button>
+            <button class="voicebtn icon-tool-tip">
+                <img src="../images/icons/voice-search-icon.svg">
+                <div class="tool-tip">Search with your voice</div>
+            </button>
         </div>
 
         <div class="right-section">
-            <img class="upload" src="../images/icons/upload.svg">
-            <img class="apps" src="../images/icons/youtube-apps.svg">
-            <div class="notifi-container">
+            <div class="icon-tool-tip">
+                <img class="upload" src="../images/icons/upload.svg">
+                <div class="tool-tip">Create</div>
+            </div>
+            <div class="icon-tool-tip">
+                <img class="apps" src="../images/icons/youtube-apps.svg">
+                <div class="tool-tip">Apps</div>
+            </div>
+            <div class="notifi-container icon-tool-tip">
                 <img class="notifi" src="../images/icons/notifications.svg" >
                 <div class="notifi-count">3</div>
+                <div class="tool-tip">Notifications</div>
             </div>
-            <img class="user-profile" src="../images/clem-onojeghuo-pTeZKi29EYE-unsplash.jpg" >
+            <div class="icon-tool-tip">
+                <img class="user-profile" src="../images/clem-onojeghuo-pTeZKi29EYE-unsplash.jpg" >
+                <div class="tool-tip">Profile</div>
+            </div>
+            
         </div>
     </div>
 
     <div class="sidebar">
-        sidebar
+        <div class="sidebar-link">
+            <img src="../images/icons/sidebar/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="../images/icons/sidebar/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="../images/icons/sidebar/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="../images/icons/sidebar/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="../images/icons/sidebar/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="../images/icons/sidebar/library.svg">
+            <div>Library</div>
+        </div>
     </div>
 
     <div class="youtube">
@@ -47,8 +87,19 @@
     
             <div class="channel-info-grid">
                 <div class="channel-pic">
-                    <img  src="../images/download (1).jpeg" alt="books">
+                    <div class="channel-pic-show">
+                        <img   src="../images/download (1).jpeg" alt="books">
+
+                        <div class="hidden-channel-info">
+                            <img  class="hidden-pic" src="../images/download (1).jpeg" alt="books">
+                            <div class="hidden-info">
+                                <p class="hidden-name">Kristen & Maddie</p>
+                                <p class="hidden-subs">3M subscribers</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="video-info">
                     <p class="video-title">Book Lovers Vlog: What We're Reading, Book Shopping & Chill Day</p>
     
